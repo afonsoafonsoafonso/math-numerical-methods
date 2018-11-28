@@ -8,7 +8,7 @@ def simpson(a, b, n):
     integral=f(a)+f(b)
     i=1
     integral=0
-    while i<n:
+    while i < n:
         if i%2==0: 
             integral=integral+2*f(a+i*h)
         else:

@@ -6,10 +6,10 @@ def f(x): #f(x)=sen(x)
 def trapezios(a, b, n):
     h=abs(b-a)/n
     integral=f(a)+f(b)
-    i=a+h
+    i=1
     integral=0
-    while i < (b-h):
-        integral=integral+2*f(i)
+    while i < n:
+        integral=integral+2*f(a+i*h)
         i+=h
     integral=integral*(h/2)
     return integral
