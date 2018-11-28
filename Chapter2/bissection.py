@@ -1,4 +1,4 @@
-def f(x): #f(x)=x³-3 ; zero em ~(1.442,0)
+def f(x): #f(x)=x³-3 ; zero em ~(1.441,0)
     return x*x*x-3
 
 def bissection(a, b, iterations):
